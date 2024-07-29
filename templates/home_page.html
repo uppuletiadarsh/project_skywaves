@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/home_page.css' %}">
+</head>
+<body>
+<div class="header1">
+        <header class="header">
+            <h1>Our Services</h1>
+        </header>
+</div>
+
+    <div class="services">
+        <div class="service-item">
+            <h2>Custom Software Development</h2>
+            <p>We specialize in creating custom software solutions tailored to meet your unique business requirements.</p>
+            <p class="quote">"Building tailored solutions to meet your business needs."</p>
+        </div>
+
+        <div class="service-item">
+            <h2>Web Application Development</h2>
+            <p>We craft intuitive and scalable web applications that enhance user experience and drive business growth.</p>
+            <p class="quote">"Crafting intuitive and scalable web experiences."</p>
+        </div>
+
+        <div class="service-item">
+            <h2>Mobile App Development</h2>
+            <p>We develop innovative mobile applications for iOS and Android platforms, ensuring optimal performance and usability.</p>
+            <p class="quote">"Creating innovative mobile solutions for iOS and Android."</p>
+        </div>
+
+        <div class="service-item">
+            <h2>Enterprise Software Solutions</h2>
+            <p>Empower your enterprise with robust and scalable software systems designed to streamline operations and enhance efficiency.</p>
+            <p class="quote">"Empowering enterprises with robust software systems."</p>
+        </div>
+
+        <div class="service-item">
+            <h2>UI/UX Design and Prototyping</h2>
+            <p>We specialize in designing engaging user interfaces and prototypes that deliver superior user experiences.</p>
+            <p class="quote">"Designing engaging user interfaces for optimal user experiences."</p>
+        </div>
+    </div>
+
+    <div class="goback-button">
+        <a href="{% url 'home' %}">Go Back</a>
+    </div>
+
+</body>
+</html>

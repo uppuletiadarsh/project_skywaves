@@ -1,0 +1,50 @@
+.container{
+        background-color: black;
+        color:white;
+        height:80px;
+    }
+    .heading{
+        text-align: center;
+        font-size:40px;
+        padding-top:10px;
+    }
+   .nav{
+    text-align: center;
+    background-color:aliceblue;
+    height:60px;
+    padding-top:10px;
+
+    }
+
+    .li{
+        display: inline;
+        padding-left: 50px;
+        font-size:30px;
+          text-decoration: none;
+
+
+
+    }
+    .nav li a:hover {
+            background-color:white;
+
+            border:1px solid blue;
+            color: blue;
+            height:30px;
+
+
+    }
+    .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    .nav li a {
+
+            text-decoration: none;
+
+        }

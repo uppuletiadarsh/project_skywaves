@@ -1,0 +1,25 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div class="container">
+        <header class="heading"> Skywaves </header>
+
+    </div>
+    <nav class="nav">
+        <ul>
+            <li class='li'><a href="{% url 'homepage' %}">Services</a></li>
+            <li class='li'><a href="{% url 'reg' %}">Registration</a></li>
+            <li class='li'><a href="{% url 'login' %}">Login</a></li>
+            <li class='li'><a>Admin Portal</a></li>
+            <li class='li'><a>Employee portal</a></li>
+        </ul>
+    </nav>
+    <div>
+
+    </div>
+    <footer class="footer">
+        &copy; 2024 Skywaves. All rights reserved.
+    </footer>
+</body>
